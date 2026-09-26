@@ -1,4 +1,4 @@
-# DIGIPRINT Tarification
+# Tarification prix de revient d'imprimerie numérique 
 
 Application Streamlit de calcul du **prix de revient** (hors marge) des articles d'une imprimerie numérique, à partir de la base articles Excel (nomenclatures `IMPUT1…50`, gammes `MACH1…20`). Trois pages : **Tarification**, **Paramètres**, **Historique**.
 
