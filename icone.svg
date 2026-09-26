@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 32" width="30" height="32" role="img" aria-label="DIGIPRINT">
+  <g fill="none" stroke="#C8236A" stroke-width="1.6">
+    <circle cx="15" cy="16" r="8.2"/>
+    <path d="M15 3.5v25M2.5 16h25"/>
+  </g>
+  <circle cx="15" cy="16" r="3.1" fill="#C8236A"/>
+</svg>

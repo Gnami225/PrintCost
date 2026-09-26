@@ -1,0 +1,13 @@
+# Secrets : jamais sur GitHub (à coller dans Streamlit Cloud > Settings > Secrets)
+.streamlit/secrets.toml
+
+# Données locales (base SQLite créée au premier lancement)
+data/*.sqlite
+data/*.sqlite-*
+data/sauvegardes/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/

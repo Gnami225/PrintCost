@@ -1,0 +1,51 @@
+# Configuration Streamlit de DIGIPRINT Tarification.
+# Thème clair : blanc, rose magenta DIGIPRINT et gris. Police embarquée (static/fonts).
+
+[server]
+enableStaticServing = true
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "stacktrace"
+
+[theme]
+base = "light"
+primaryColor = "#C8236A"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F6F6F8"
+textColor = "#2B2D33"
+linkColor = "#A8195A"
+borderColor = "#E3E3E8"
+dataframeBorderColor = "#EDEDF0"
+dataframeHeaderBackgroundColor = "#F6F6F8"
+showWidgetBorder = true
+baseRadius = "6px"
+buttonRadius = "6px"
+baseFontSize = 15
+font = "Schibsted Grotesk, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+headingFont = "Schibsted Grotesk, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+codeFont = "'Cascadia Mono', Consolas, 'Liberation Mono', monospace"
+redColor = "#B42318"
+orangeColor = "#B54708"
+greenColor = "#2E7D5B"
+blueColor = "#3E5C8A"
+chartCategoricalColors = ["#C8236A", "#5E6169", "#E48AB0", "#9A9CA5", "#7A1543", "#C9CAD1"]
+
+[[theme.fontFaces]]
+family = "Schibsted Grotesk"
+url = "app/static/fonts/schibsted-grotesk-latin-wght-normal.woff2"
+weight = "400 900"
+style = "normal"
+unicodeRange = "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+
+[[theme.fontFaces]]
+family = "Schibsted Grotesk"
+url = "app/static/fonts/schibsted-grotesk-latin-ext-wght-normal.woff2"
+weight = "400 900"
+style = "normal"
+unicodeRange = "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
